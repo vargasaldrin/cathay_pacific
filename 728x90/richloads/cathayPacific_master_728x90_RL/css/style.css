@@ -1,0 +1,230 @@
+* {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -moz-tap-highlight-color: rgba(255, 255, 255, 0);
+    -ms-tap-highlight-color: rgba(255, 255, 255, 0);
+    -tap-highlight-color: rgba(255, 255, 255, 0);
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    line-height: 1;
+}
+
+@font-face {
+    font-family: 'GT-Walsheim';
+    src: url('../fonts/GT-Walsheim-Regular.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'GT-Walsheim';
+    src: url('../fonts/GT-Walsheim-Bold.woff') format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'GT-Walsheim';
+    src: url('../fonts/GT-Walsheim-Light.woff') format('woff');
+    font-weight: 300;
+}
+
+div {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+b {
+    font-weight: bold;
+}
+
+.main {
+    width: 726px;
+    height: 88px;
+    border: 1px solid; 
+    border-color: #909090;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    visibility: hidden;
+    position: absolute;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.logo {
+    width: 728px;
+    height: 90px;
+    top: -1px;
+    left: -1px;
+    position: absolute;
+}
+
+.exit {
+    width: 728px;
+    height: 90px;
+    left: -1px;
+    top: -1px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.bg {
+    width: 728px;
+    height: 90px;
+    top: -1px;
+    left: -1px;
+    position: absolute;
+}
+
+.bgColor {
+    width: 728px;
+    height: 90px;
+    left: -1px;
+    top: -1px;
+    position: absolute;
+}
+
+.table {
+    display: table;
+    position: absolute;
+    width: 505px;
+    height: 72px;
+}
+
+#headline {
+    position: relative;
+    /* display: table; */
+    width: 505px;
+    height: 72px;
+    top: 8px;
+    left: 192px;
+}
+
+.headlines {
+    /* position: absolute; */
+    display: table-cell;
+    font-family: 'GT-Walsheim', sans-serif;
+    left: 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 505px;
+    height: 72px;
+    letter-spacing: 0px;
+    opacity: 0;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#F3_headline {
+    /* display: none; */
+    position: absolute;
+    font-family: 'GT-Walsheim', sans-serif;
+    bottom: -8px;
+    left: 0;
+    text-align: center;
+    width: 505px;
+    height: 72px;
+    letter-spacing: 0px;
+    opacity: 0;
+    font-weight: normal;
+}
+
+#imageGallery {
+    position: absolute;
+    width: 505px;
+    height: 72px;
+    top: 8px;
+    left: 192px;
+    overflow: hidden;
+}
+
+.imageAsset {
+    position: absolute;
+    width: 728px;
+    height: 90px;
+    top: -9px;
+    left: -193px;
+    transform: scale(1.08);
+    opacity: 0;
+}
+
+#Adjust_Brushwing {
+    position: absolute;
+    transition: transform 3s linear;
+    width: 338px;
+    height: 58px;
+    top: 88px;
+    left: 188px;
+}
+
+#bird_cover {
+    position: absolute;
+    transition: transform 0.75s;
+    height: 32px;
+    width: 29px;
+    top: -1px;
+    right: -1px;
+}
+
+#bird {
+    position: absolute;
+    width: 728px;
+    height: 90px;
+    top: -1px;
+    left: -1px;
+}
+
+
+#cta {
+    position: absolute;
+    height: 27px;
+    width: 108px;
+    top: 44px;
+    left: 392px;
+    cursor: pointer;
+    font-family: 'GT-Walsheim', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 28px;
+    overflow: hidden;
+    transition: background-color 0.2s linear, opacity 0.2s linear;
+    opacity: 0;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.transitionOne {
+    transition: transform 3s linear, opacity 0.5s;
+}
+
+.hide{
+    opacity: 0;
+}
+
+#guide {
+    opacity: 0.5;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+}
